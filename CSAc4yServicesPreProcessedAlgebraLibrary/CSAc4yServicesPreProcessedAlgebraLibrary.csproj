@@ -34,11 +34,17 @@
     <Reference Include="CSAc4yAlmostEmpty">
       <HintPath>C:\Library\c#\CSAc4yAlmostEmpty.dll</HintPath>
     </Reference>
+    <Reference Include="CSAc4yIdentificationAlgebraLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationAlgebraLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CSAc4yIdentificationBaseAlgebraLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationBaseAlgebraLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CSAc4yIdentificationFinalLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationFinalLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="CSAc4yPreProcessedAndAlgebra">
       <HintPath>C:\Library\c#\CSAc4yPreProcessedAndAlgebra.dll</HintPath>
-    </Reference>
-    <Reference Include="CSAc4yServiceEmptyLibrary">
-      <HintPath>C:\Library\c#\CSAc4yServiceEmptyLibrary.dll</HintPath>
     </Reference>
     <Reference Include="GuidLibrary">
       <HintPath>C:\Library\c#\GuidLibrary.dll</HintPath>
@@ -58,7 +64,11 @@
     <Compile Include="Algebra\Ac4yServiceEnvelopeAlgebra.cs" />
     <Compile Include="Algebra\Ac4yServiceRequestAlgebra.cs" />
     <Compile Include="Algebra\Ac4yServiceResponseAlgebra.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Final\Ac4yProcessResult.cs" />
+    <Compile Include="Final\Ac4yService.cs" />
+    <Compile Include="Final\Ac4yServiceEnvelope.cs" />
+    <Compile Include="Final\Ac4yServiceRequest.cs" />
+    <Compile Include="Final\Ac4yServiceResponse.cs" />
     <Compile Include="PreProcessed\Ac4yProcessResultPreProcessed.cs" />
     <Compile Include="PreProcessed\Ac4yServiceEnvelopePreProcessed.cs" />
     <Compile Include="PreProcessed\Ac4yServicePreProcessed.cs" />
